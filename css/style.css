@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li a {
+    color: #333!important;
+    font-size: 14px!important;
+    font-weight: 400;
+}
+
+.points li {
+    display: inline;
+}
+
+.loc-link {
+    color: #666;
+    font-size: 11px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.thehumanbeingprofile {
+    background-image: url(https://cdn.octopix.in/assets/images/create-your-zoompo-profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 110px 0 102px;
+    background-color: #000;
+    margin-bottom: -30px;
+    height: 100%;
+    color: #fff;
+}
+
+.profileTitle {
+    background-color: rgba(171, 224, 90, 0.8);
+    padding: 17px 22px 23px 35px;
+    color: #fff;
+}
+
+.profileSUbTitle {
+    font-size: 43px;
+    font-weight: 100;
+}
+
+.custom-button {
+    padding: 10px 55px;
+    background-color: #CF1B22;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    border-top: 2px solid #cf1b22;
+    padding: 60px 0 0;
+    color: #8c8b8b;
+}
+
+.loginBtn {
+    background-color: #CF1B22;
+    color: #fff;
+    padding: 5px 25px;
+    border: none;
+
+}
+
+.footer2 {
+    background-color: #fff;
+}
+
+.category-text {
+    font-size: 14px;
+}
+
+.demo {
+    background-color: #11567c;
+    background-image: linear-gradient(62deg, #11567c 0%, #26aff5 100%);
+}
+
+.demo-btn {
+    background-color: #11567c;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    padding: 13px 0;
+    width: 90%;
+}
+
+.parallax {
+    background-image: url(https://cdn.octopix.in/assets/images/z-benefits.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.p-backgorund {
+    background-color: rgba(0, 0,0,0.5)!important;
+    background-size: cover;
+    width: 100%;
+}
+
+.client-bgImg {
+    background-image: url(https://www.dzicard.com/site_assets/site_img/home/09.png);
+}
+
+.client-background {
+    background-color: rgb(226, 190, 58);
+    width: 100%;
+    height: 100%!important;
+    padding: 100px 0;
+}
