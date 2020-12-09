@@ -36,6 +36,7 @@ ul li a {
     padding: 110px 0 102px;
     background-color: #000;
     margin-bottom: -30px;
+    max-width: 100%;
     height: 100%;
     color: #fff;
 }
@@ -98,7 +99,8 @@ ul li a {
 }
 
 .parallax {
-    background-image: url(https://cdn.octopix.in/assets/images/z-benefits.jpg);
+    /* background-image: url(https://cdn.octopix.in/assets/images/z-benefits.jpg); */
+    background-image: url('/images/social4.jfif');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -120,13 +122,38 @@ ul li a {
     background-color: rgb(226, 190, 58);
     width: 100%;
     height: 100%!important;
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 .social-work {
-    background-color: rgb(39,16,102);
+    /* background-color: #FFB300; */
     width: 100%;
     height: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
     color: #fff;
+}
+
+.social-work2 {
+    background-color: #FFB300;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #CC151D!important;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+.category {
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #CC151D;
+    color: white;
 }
